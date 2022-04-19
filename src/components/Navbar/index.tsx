@@ -1,12 +1,12 @@
-import { Navbar } from "./styles";
+import { NavbarStyles } from "./styles";
 
 
-export default function Home(){
+export default function Navbar(){
     
     return(
 
 
-<Navbar>
+<NavbarStyles>
 <nav id="navbar" className="nav">
   <ul className="nav-list">
     <li>
@@ -20,7 +20,7 @@ export default function Home(){
     </li>
   </ul>
 </nav>
-</Navbar>
+</NavbarStyles>
 
 
 
